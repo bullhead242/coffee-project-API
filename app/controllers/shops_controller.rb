@@ -1,4 +1,4 @@
-class ShopsController < ApplicationController
+class ShopsController < ProtectedController
   before_action :set_shop, only: [:show, :update, :destroy]
 
   # GET /shops
